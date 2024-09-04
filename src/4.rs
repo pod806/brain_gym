@@ -1,4 +1,4 @@
-use std::io::{self, Write};         // O(n) karmaşıklığında yapabildim
+use std::io::{self, Write};         // O(n) karmaşıklığında yapabildim.
 
 fn is_palindrome_number(number: i32) -> bool {
     let num_str = number.to_string();
